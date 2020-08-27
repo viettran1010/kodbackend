@@ -1,0 +1,24 @@
+{
+  "name": "kodbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "constants.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viettran1010/kodbackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viettran1010/kodbackend/issues"
+  },
+  "homepage": "https://github.com/viettran1010/kodbackend#readme",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}

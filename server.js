@@ -6,7 +6,7 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const http = require('http')
 const ioCreate = require('socket.io')
-mongoose.connect('mongodb+srv://admin:admin123456@cluster0.9m6f6.mongodb.net/Booking?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:admin123456@cluster0.9m6f6.mongodb.net/KingofDiamonds?retryWrites=true&w=majority', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 },(err)=>{

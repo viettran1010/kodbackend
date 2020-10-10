@@ -3,8 +3,8 @@ const passportFb = require('passport-facebook-token')
 const User = require('../models/user.model')
 
 passport.use(new passportFb({
-    clientID: '3516510358391820',
-    clientSecret: '53193b1215a333285b44306813dc8f83',
+    clientID: '335890680813452',
+    clientSecret: '8eefd0a2717a88ee0bb15464e65e9eb3',
     callbackURL: 'http://localhost:3000/auth/facebook',
 },
     async (accessToken, refreshToken, profile, done) => {

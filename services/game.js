@@ -13,6 +13,6 @@ module.exports.GetHightScore = async (playerId)=>{
     return result
 }
 module.exports.GetHistory = async (playerId)=>{
-    const result = await Game.find({playerId:playerId})
+    const result = await Game.find({playerId:playerId}).sort({'_id': -1})
     return result
 }
